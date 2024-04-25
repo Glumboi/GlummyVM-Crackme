@@ -18,14 +18,13 @@
     PRINT_LAST_I32 = __LINE__ ^ __COUNTER__, \
     PRINT_STR = __LINE__ ^ __COUNTER__, \
     PRINT_NEW_LINE = __LINE__ ^ __COUNTER__,\
-	IS_EQUAL = __LINE__ ^ __COUNTER__,\
-	IS_NOT_EQUAL = __LINE__ ^ __COUNTER__,\
-	IS_GREATER = __LINE__ ^ __COUNTER__,\
-	IS_LESS = __LINE__ ^ __COUNTER__,\
-	JMP  = __LINE__ ^ __COUNTER__,\
-	JMP_IF_TRUE  = __LINE__ ^ __COUNTER__,\
-	JMP_IF_FALSE  = __LINE__ ^ __COUNTER__,
-#define STRING_LITERAL(str) {str}
+    IS_EQUAL = __LINE__ ^ __COUNTER__,\
+    IS_NOT_EQUAL = __LINE__ ^ __COUNTER__,\
+    IS_GREATER = __LINE__ ^ __COUNTER__,\
+    IS_LESS = __LINE__ ^ __COUNTER__,\
+    JMP  = __LINE__ ^ __COUNTER__,\
+    JMP_IF_TRUE  = __LINE__ ^ __COUNTER__,\
+    JMP_IF_FALSE  = __LINE__ ^ __COUNTER__,
 
 typedef int32_t i32;
 typedef uint32_t u32;
